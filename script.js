@@ -52,7 +52,7 @@ function getPasswordOptions() {
   
   )
 
-  // To make sure the user picks at least one, this conditional is put here ('false' here means if they clicked 'cancel' on all the confirm prompts)
+  // To make sure the user picks at least one, an additional conditional is included here to return 'false' if the user selects 'cancel' on all the confirm prompts
   if(hasSpecialCharacters === false &&
     hasNumericCharacters === false &&
     hasUpperCasedCharacters === false &&
@@ -73,6 +73,14 @@ function getPasswordOptions() {
 
   console.log(passwordOptions)
   return passwordOptions
+}
+
+// Getting a random element from the array
+function getRandom(arr) {
+  let randomIndex = Math.floor(Math.random() * arr.length)
+  let randomElement = arr[randomIndex]
+
+  return randomElement
 }
 
 // Function for getting a random element from an array
