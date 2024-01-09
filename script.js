@@ -99,12 +99,12 @@ function getPasswordOptions() {
   }
 
   // Given a min of 10 and max of 64 for user input password length
-  if (length < 10) {
-    alert(`Password length must be at least 10 characters long.`);
+  if (length < 8) {
+    alert(`Password length must be at least 8 characters long.`);
     return;
   }
-  if (length >= 65) {
-    alert(`Password length must be less than 65 characters long.`);
+  if (length >= 125) {
+    alert(`Password length must be less than 128 characters long.`);
     return;
   }
 

@@ -14,3 +14,8 @@ As a developer, i would deem this task complete if it meets the following criter
     -  The generated password would contain randomly selected characters based on the users selection.
     -  If the users selects no option, the application forces the user to choose at least one set of character variables.
     -  The results of the password is gernerated as a prompt/ alert in the browser for the user. 
+
+## Screenshot of application
+
+
+## Deployed application
