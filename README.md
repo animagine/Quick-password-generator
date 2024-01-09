@@ -16,6 +16,7 @@ As a developer, this task is complete if it meets the following criteria.
     -  The results of the password are generated as a prompt/ alert in the browser for the user. 
 
 ## Screenshot of application
+![Screenshot of application](https://github.com/animagine/Quick-password-generator/blob/main/Screenshot%202024-01-09%20at%2010.21.55%20PM.png)
 
 
 ## Deployed application
